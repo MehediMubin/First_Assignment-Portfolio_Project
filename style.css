@@ -102,3 +102,34 @@ body {
   font-size: 40px;
   line-height: 30px;
 }
+
+.myself {
+  text-align: center;
+  font-size: 50px;
+}
+
+.fifth_section {
+  background-image: linear-gradient(360deg, gray 20%, white);
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.fifth_section img {
+  width: 80%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.fifth_section text {
+  width: 80%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.name {
+  font-weight: 800;
+}
+
+.fifth_section h1 {
+  font-size: 40px;
+}
