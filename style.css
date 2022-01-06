@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
   text-align: justify;
 }
 
-.left_border {
-  font-size: 30px;
+#left_border {
+  font-size: 40px;
   line-height: 40px;
   border-left: 5px solid tomato;
   padding-left: 10px;
@@ -63,19 +63,19 @@ body {
   padding-bottom: 100px;
 }
 
+.third_section {
+    margin-left: 50px;
+    margin-right: 50px;
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 200px 200px;
+    margin-bottom: 100px;
+  }
+
 .third_section h1 {
   font-size: 40px;
   line-height: 30px;
-}
-
-.third_section {
-  margin-left: 50px;
-  margin-right: 50px;
-  background-image: url(images/shapes/shape-1.png);
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 200px 200px;
-  margin-bottom: 100px;
 }
 
 .third_section img {
@@ -109,8 +109,8 @@ body {
 }
 
 .fifth_section {
-  background-image: linear-gradient(360deg, gray 20%, white);
-  border-radius: 10px;
+  background-image: linear-gradient(360deg, gray 30%, white);
+  /* border-radius: 5px; */
 }
 
 .fifth_section img {
@@ -123,14 +123,6 @@ body {
   width: 80%;
   margin-left: 50px;
   margin-right: 50px;
-}
-
-.name {
-  font-weight: 800;
-}
-
-.fifth_section h1 {
-  font-size: 40px;
 }
 
 footer {
