@@ -75,10 +75,30 @@ body {
   background-repeat: no-repeat;
   background-position: left;
   background-size: 200px 200px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 
 .third_section img {
   margin-left: 80px;
   width: 70%;
+}
+
+.fourth_section {
+  margin-left: 120px;
+  margin-right: 50px;
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right 100px;
+  background-size: 200px 200px;
+  margin-bottom: 80px;
+}
+
+.fourth_section img {
+  width: 70%;
+  margin-left: 100px;
+}
+
+.fourth_section h1 {
+  font-size: 40px;
+  line-height: 30px;
 }
