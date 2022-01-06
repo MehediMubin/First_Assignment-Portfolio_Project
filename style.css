@@ -52,15 +52,41 @@ body {
   color: rgb(1, 1, 36);
 }
 
+.second_section {
+    margin-bottom: 100px;
+}
+
 .second_section img {
   width: 12em;
   height: 12em;
 }
 
+.mission {
+    background-image: linear-gradient(360deg, crimson, tomato 60%);
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-left: 4%;
+}
+
+.vision {
+    background-image: linear-gradient(360deg, lightgray, gray 50%);
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-left: 4%;
+}
+
+.goal {
+    background-image: linear-gradient(360deg, rgb(184, 69, 184) 50%, rgb(71, 71, 206));
+    border-radius: 10px;
+    margin-top: -20px;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
 .mvg {
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 100px;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 2%;
 }
 
 .third_section {
